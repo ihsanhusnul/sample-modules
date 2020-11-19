@@ -1,0 +1,18 @@
+GIT
+  remote: https://github.com/bl-core-vitals/cocoapods-pod-merge.git
+  revision: f5a20736275edb69297e3e431e8a5aaf8f73480b
+  tag: blios-0.0.4.4
+  specs:
+    cocoapods-pod-merge (0.0.4)
+
+GEM
+  specs:
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  cocoapods-pod-merge!
+
+BUNDLED WITH
+   2.1.4
