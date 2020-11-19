@@ -1,0 +1,7 @@
+sample-modules.xcworkspace/xcuserdata/
+
+MergedPods/
+Pods/
+archive-podfile/
+archive-podmerge-single/
+archive-podmerge/

@@ -1,16 +1,141 @@
 PODS:
-  - MergedPods (1.0.0)
+  - Alamofire (4.9.1)
+  - CocoaLumberjack (3.6.0):
+    - CocoaLumberjack/Core (= 3.6.0)
+  - CocoaLumberjack/Core (3.6.0)
+  - DeepDiff (2.3.1)
+  - DeviceGuru (6.0.3)
+  - iCarousel (1.8.3)
+  - IQKeyboardManagerSwift (6.3.0)
+  - KeychainSwift (18.0.0)
+  - lottie-ios (2.5.2)
+  - ObjectMapper (3.5.1)
+  - Parchment (1.7.0)
+  - PINCache (3.0.1):
+    - PINCache/Core (= 3.0.1)
+  - PINCache/Core (3.0.1):
+    - PINOperation (~> 1.2.0)
+  - PINOperation (1.2)
+  - PINRemoteImage (3.0.1):
+    - PINRemoteImage/Core (= 3.0.1)
+    - PINRemoteImage/PINCache (= 3.0.1)
+  - PINRemoteImage/Core (3.0.1):
+    - PINOperation
+  - PINRemoteImage/PINCache (3.0.1):
+    - PINCache (~> 3.0.1)
+    - PINRemoteImage/Core
+  - RNCryptor (5.1.0)
+  - RSBarcodes_Swift (5.0.0)
+  - SDWebImage (4.3.3):
+    - SDWebImage/Core (= 4.3.3)
+  - SDWebImage/Core (4.3.3)
+  - Starscream (3.1.1)
+  - SwiftPhoenixClient (1.2.0):
+    - Starscream (~> 3.1.0)
+  - SwiftyJSON (5.0.0)
+  - Swinject (2.7.1)
 
 DEPENDENCIES:
-  - MergedPods (from `MergedPods/MergedPods`)
+  - Alamofire (= 4.9.1)
+  - CocoaLumberjack (from `https://github.com/bl-core-vitals/CocoaLumberjack.git`, branch `3.6.0`)
+  - DeepDiff (= 2.3.1)
+  - DeviceGuru (= 6.0.3)
+  - iCarousel (= 1.8.3)
+  - IQKeyboardManagerSwift (= 6.3.0)
+  - KeychainSwift (= 18.0.0)
+  - lottie-ios (= 2.5.2)
+  - ObjectMapper (= 3.5.1)
+  - Parchment (from `https://github.com/bl-core-vitals/Parchment.git`, branch `1.7.0.2`)
+  - PINCache (from `https://github.com/bl-core-vitals/PINCache.git`, tag `3.0.1-podMerge`)
+  - PINOperation (from `https://github.com/bl-core-vitals/PINOperation.git`, tag `1.2.0-podMerge`)
+  - PINRemoteImage (from `https://github.com/bl-core-vitals/PINRemoteImage.git`, tag `3.0.1-podMerge`)
+  - RNCryptor (= 5.1.0)
+  - RSBarcodes_Swift (from `https://github.com/bl-core-vitals/RSBarcodes_Swift.git`, tag `5.0.1-xcode12`)
+  - SDWebImage (= 4.3.3)
+  - Starscream (= 3.1.1)
+  - SwiftPhoenixClient (= 1.2.0)
+  - SwiftyJSON (= 5.0.0)
+  - Swinject (= 2.7.1)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - DeepDiff
+    - DeviceGuru
+    - iCarousel
+    - IQKeyboardManagerSwift
+    - KeychainSwift
+    - lottie-ios
+    - ObjectMapper
+    - RNCryptor
+    - SDWebImage
+    - Starscream
+    - SwiftPhoenixClient
+    - SwiftyJSON
+    - Swinject
 
 EXTERNAL SOURCES:
-  MergedPods:
-    :path: MergedPods/MergedPods
+  CocoaLumberjack:
+    :branch: 3.6.0
+    :git: https://github.com/bl-core-vitals/CocoaLumberjack.git
+  Parchment:
+    :branch: 1.7.0.2
+    :git: https://github.com/bl-core-vitals/Parchment.git
+  PINCache:
+    :git: https://github.com/bl-core-vitals/PINCache.git
+    :tag: 3.0.1-podMerge
+  PINOperation:
+    :git: https://github.com/bl-core-vitals/PINOperation.git
+    :tag: 1.2.0-podMerge
+  PINRemoteImage:
+    :git: https://github.com/bl-core-vitals/PINRemoteImage.git
+    :tag: 3.0.1-podMerge
+  RSBarcodes_Swift:
+    :git: https://github.com/bl-core-vitals/RSBarcodes_Swift.git
+    :tag: 5.0.1-xcode12
+
+CHECKOUT OPTIONS:
+  CocoaLumberjack:
+    :commit: 5ba12af987e24e5cce8d4eabde05dd9bda32589f
+    :git: https://github.com/bl-core-vitals/CocoaLumberjack.git
+  Parchment:
+    :commit: 9b39c65b0158e92e561564301bf16a75b3023fd6
+    :git: https://github.com/bl-core-vitals/Parchment.git
+  PINCache:
+    :git: https://github.com/bl-core-vitals/PINCache.git
+    :tag: 3.0.1-podMerge
+  PINOperation:
+    :git: https://github.com/bl-core-vitals/PINOperation.git
+    :tag: 1.2.0-podMerge
+  PINRemoteImage:
+    :git: https://github.com/bl-core-vitals/PINRemoteImage.git
+    :tag: 3.0.1-podMerge
+  RSBarcodes_Swift:
+    :git: https://github.com/bl-core-vitals/RSBarcodes_Swift.git
+    :tag: 5.0.1-xcode12
 
 SPEC CHECKSUMS:
-  MergedPods: 827eea40b10a2ccd04de3f5c500cbfecee546486
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  CocoaLumberjack: a7121d176e8e482744aa4afc667c7bf554135c6d
+  DeepDiff: e5ae6c50d0321568e4508cec5930b9f10bb293fc
+  DeviceGuru: 5c377d56350f05590eeb7908a53088bd86cd8cdc
+  iCarousel: d782f635afac190c49bb8ee455882284cff8b85f
+  IQKeyboardManagerSwift: a8228c257614af98743b4cd8584637025f36358f
+  KeychainSwift: c46e1438d121e47459fb304ac88c5e058a2a91ed
+  lottie-ios: 3fef45d3fabe63e3c7c2eb603dd64ddfffc73062
+  ObjectMapper: 70187b8941977c62ccfb423caf6b50be405cabf0
+  Parchment: 888d089cc0000201b031c09a2fb01d665cae2842
+  PINCache: 330d77c618b4e31ec96e4aaec955ab4db1f7f913
+  PINOperation: f8854da9d404b45c30f7a287b896e0c26a67af93
+  PINRemoteImage: 3b928046c14fecd3637f4d28681695c51ed379a6
+  RNCryptor: a369134686cd2ad391323cc856b62e591193ba79
+  RSBarcodes_Swift: 2143cf918aae745732107169f5935cdb74c02154
+  SDWebImage: de4d90b5bff3571eae7bd16202b1f43135409fa5
+  Starscream: 4bb2f9942274833f7b4d296a55504dcfc7edb7b0
+  SwiftPhoenixClient: ba22ba809b345522afe478817d7cb51ee3d49365
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  Swinject: ddf78b8486dd9b71a667b852cad919ab4484478e
 
-PODFILE CHECKSUM: f6655e104876c51366ce57d3fec70d78aecc3030
+PODFILE CHECKSUM: 85731d7d1fc5392184b7462680292296e173e2ea
 
 COCOAPODS: 1.9.3
