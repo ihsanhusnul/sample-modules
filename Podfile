@@ -7,11 +7,13 @@ plugin 'cocoapods-pod-merge'
 
 target 'sample-modules' do
   use_frameworks!
-
-  pod 'UtilSwift', path: 'MergedPods/UtilSwift'
-  pod 'UtilObjc', path: 'MergedPods/UtilObjc'
-  pod 'UISwift', path: 'MergedPods/UISwift'
-  pod 'Networking', path: 'MergedPods/Networking'
+  
+  pod 'MergedPods', path: 'MergedPods/MergedPods'
+  
+#  pod 'UtilSwift', path: 'MergedPods/UtilSwift'
+#  pod 'UtilObjc', path: 'MergedPods/UtilObjc'
+#  pod 'UISwift', path: 'MergedPods/UISwift'
+#  pod 'Networking', path: 'MergedPods/Networking'
   
   # Pods for sample-modules
 ##  group 'UtilSwift' do
